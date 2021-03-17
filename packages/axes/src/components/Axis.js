@@ -14,8 +14,6 @@ import { computeCartesianTicks, getFormatter } from '../compute'
 import { axisPropTypes } from '../props'
 import AxisTick from './AxisTick'
 
-const defaultTickRenderer = props => <AxisTick {...props} />
-
 const Axis = ({
     axis,
     scale,
@@ -173,7 +171,7 @@ Axis.propTypes = {
     tickPadding: PropTypes.number.isRequired,
     tickRotation: PropTypes.number.isRequired,
     format: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-    renderTick: PropTypes.func.isRequired,
+    renderTick: PropTypes.elementType,
     legend: PropTypes.node,
     legendPosition: PropTypes.oneOf(['start', 'middle', 'end']).isRequired,
     legendOffset: PropTypes.number.isRequired,
@@ -186,7 +184,7 @@ Axis.defaultProps = {
     tickSize: 5,
     tickPadding: 5,
     tickRotation: 0,
-    renderTick: defaultTickRenderer,
+    renderTick: AxisTick,
     legendPosition: 'end',
     legendOffset: 0,
 }
