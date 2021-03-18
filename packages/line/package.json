@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "@nivo/annotations": "0.67.0",
-    "@nivo/axes": "0.67.0",
+    "@nivo/axes": "https://gitpkg.now.sh/MohammadSaad1/nivo-modified/packages/axes?master",
     "@nivo/colors": "0.67.0",
     "@nivo/legends": "0.67.0",
     "@nivo/scales": "0.67.0",
