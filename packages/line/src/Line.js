@@ -16,7 +16,7 @@ import {
     CartesianMarkers,
 } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
-import { Axes, Grid } from '@nivo/axes'
+import { Axes, Grid } from '@mohammadsaad/axes'
 import { BoxLegendSvg } from '@nivo/legends'
 import { Crosshair } from '@nivo/tooltip'
 import { useLine } from './hooks'

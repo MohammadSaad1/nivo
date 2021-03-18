@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Dimensions } from '@nivo/core'
 import { Scale } from '@nivo/scales'
 
-declare module '@nivo/axes' {
+declare module '@mohammadsaad/axes' {
     export type TickFormatter = (value: number | string | Date) => string | number
 
     type GridValuesBuilder<T> = T extends number

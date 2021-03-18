@@ -14,7 +14,7 @@ import {
     getRelativeCursor,
     isCursorInRect,
 } from '@nivo/core'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@mohammadsaad/axes'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
 import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'

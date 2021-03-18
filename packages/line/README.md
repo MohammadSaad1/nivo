@@ -1,6 +1,6 @@
-# `@nivo/line`
+# `@mohammadsaad/line`
 
-[![version](https://img.shields.io/npm/v/@nivo/line.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/line)
+[![version](https://img.shields.io/npm/v/@mohammadsaad/line.svg?style=flat-square)](https://www.npmjs.com/package/@mohammadsaad/line)
 
 ## Line
 
